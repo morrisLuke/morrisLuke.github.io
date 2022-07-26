@@ -1,0 +1,15 @@
+---
+title: "Luke Morris"
+format:
+  html:
+    theme: yeti
+editor: visual
+---
+
+Thank you for visiting. Here's a look at some of the data projects I've put together.
+
+-   [Kansas Basketball 2021-22 Season Dashboard](https://hzr5pf-luke0morris.shinyapps.io/kansas-basketball-2021-22/) ([repo](https://github.com/morrisLuke/kansas_basketball_dashboard))
+
+-   [Predictive Analytics with College Athletics Financials](https://github.com/morrisLuke/Predictive-Analytics-with-College-Athletics-Financials)
+
+-   [Examining Article Shareability from Text-Mined Data](https://github.com/morrisLuke/Examining-Article-Shareability)
