@@ -9,8 +9,8 @@ website:
   repo-url: https://github.com/morrisLuke/morrisLuke.github.io
   navbar:
     right:
-      - text: blog
-        href: blog.qmd
+#      - text: blog
+#        href: blog.qmd
       - icon: twitter
         href: https://twitter.com/LukeMorrisverse
       - icon: linkedin
