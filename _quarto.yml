@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Luke Morris"
+  description: "Healthcare Data Analytics | Data Science | R | Quarto"
+  site-url: https://morrisLuke.github.io
+  navbar:
+    right:
+      - text: blog
+        href: blog.qmd
+      - icon: twitter
+        href: https://twitter.com/LukeMorrisverse
+      - icon: linkedin
+        href: https://www.linkedin.com/in/lukesmorris/
+      - icon: github
+        href: https://github.com/morrisLuke
+        
+format:
+  html:
+    theme: yeti
+    css: styles.css
+
+editor: visual
+

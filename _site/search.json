@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "aTidyConversation-series.html",
+    "href": "aTidyConversation-series.html",
+    "title": "A tidy conveRsation",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "archive.html",
+    "href": "archive.html",
+    "title": "Archive",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAug 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAug 14, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Luke Morris",
+    "section": "",
+    "text": "I’m a small library of contradictions. I started off life in a one-stoplight town in a corner of Kansas and now call Los Angeles home. I spent a decade as a words guy, wrangling wild sentences as a journalist, before transforming into a numbers guy, analyzing healthcare data.\n\n\n\n\n\nAn Emergency Department-Based Care Coordination Program for Underserved Patients\nAcademic Emergency Medicine\nMay 17, 2022\n30 Characteristics of Patients Restrained in the Emergency Department and Evaluation for Disparities in Care\nAnnals of Emergency Medicine\nOct. 22, 2021\n\n\n\n\n\nMaking the Case for Cedars’ Community Resource Coordinators\nBracketball: Let’s Explore March Madness with ncaahoopR (slides)\n\n\n\n\n\nKansas Basketball 2021-22 Season Dashboard (repo)\nPredictive Analytics with College Athletics Financials\nExamining Article Shareability from Text-Mined Data\n\n\n\n\n\nCedars-Sinai Graduate School of Biomedical Sciences\nLos Angeles, CA\nCandidate for Masters in Health Delivery Science\nSep 2021 - present\nMerrimack College\nNorth Andover, MA\nMS in Business Analytics\nJan 2018 - July 2019\nUniversity of Kansas\nLawrence, KS\nBS in Journalism\nAug 2005 - May 2009\n\n\n\nBusiness Data Analyst, Emergency Department\nCedars-Sinai Medical Center\nSept 2019 - present\nDigital Editor\nCirca.com\nOct 2018 - March 2019\nWeb Producer, Sports\nThe Dallas Morning News\nJuly 2013 - Oct 2018\nCopy Editor\nArkansas Democrat-Gazette\nAug 2010 - May 2013\nCopy Editor/Designer\nThe News & Advance\nJune 2009-July 2010\n\n \n  \n   \n  twitter\n  LinkedIn\n  Github"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Tidy Data, Messy Thoughts",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\nThis is a post with executable code.\n\n\n\n\n\n\nAug 17, 2022\n\n\n0 min\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\nThis is the first post in a Quarto blog. Welcome!\n\n\n\n\n\n\nAug 14, 2022\n\n\n0 min\n\n\n\n\n\n\nNo matching items"
+  }
+]
