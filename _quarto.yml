@@ -6,6 +6,7 @@ website:
   title: "Luke Morris"
   description: "Healthcare Data Analytics | Data Science | R | Quarto"
   site-url: https://morrisLuke.github.io/
+  repo-url: https://github.com/morrisLuke/morrisLuke.github.io
   navbar:
     right:
       - text: blog
