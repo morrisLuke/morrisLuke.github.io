@@ -27,8 +27,8 @@ I'm a small library of contradictions. I started off life in a one-stoplight tow
     Academic Emergency Medicine\
     May 17, 2022
 
--   [30 Characteristics of Patients Restrained in the Emergency Department and Evaluation for Disparities in Care](https://www.annemergmed.com/article/S0196-0644(21)00879-9/fulltext) \
-    Annals of Emergency Medicine \
+-   [30 Characteristics of Patients Restrained in the Emergency Department and Evaluation for Disparities in Care](https://www.annemergmed.com/article/S0196-0644(21)00879-9/fulltext)\
+    Annals of Emergency Medicine\
     Oct. 22, 2021
 
 #### Talks
