@@ -17,7 +17,8 @@ website:
         href: https://www.linkedin.com/in/lukesmorris/
       - icon: github
         href: https://github.com/morrisLuke
-        
+  google-analytics: "G-60SLVZ7V99"
+  cookie-consent: true
 format:
   html:
     theme: yeti
