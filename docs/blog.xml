@@ -10,48 +10,43 @@
 <atom:link href="https://morrisLuke.github.io//blog.xml" rel="self" type="application/rss+xml"/>
 <description>Healthcare Data Analytics | Data Science | R | Quarto</description>
 <generator>quarto-0.9.301</generator>
-<lastBuildDate>Wed, 17 Aug 2022 07:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 22 Aug 2022 07:00:00 GMT</lastBuildDate>
 <item>
-  <title>Post With Code</title>
-  <dc:creator>Harlow Malloc</dc:creator>
-  <link>https://morrisLuke.github.io//posts/post-with-code/index.html</link>
+  <title>Not promising much, but here goes…</title>
+  <link>https://morrisLuke.github.io//posts/not-promising-much-but-here-goes/post.html</link>
   <description><![CDATA[ 
 
 
 
 
-<p>This is a post with executable code.</p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <category>code</category>
-  <category>analysis</category>
-  <guid>https://morrisLuke.github.io//posts/post-with-code/index.html</guid>
-  <pubDate>Wed, 17 Aug 2022 07:00:00 GMT</pubDate>
-  <media:content url="https://morrisLuke.github.io///posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Welcome To My Blog</title>
-  <dc:creator>Tristan O'Malley</dc:creator>
-  <link>https://morrisLuke.github.io//posts/welcome/index.html</link>
-  <description><![CDATA[ 
+<p>Ask anybody who has worked with me, they’ll tell you I’m the king of underpromising then overdelivering.</p>
+<p>I’m hoping that turns out to be the case with this shiny new Quarto portfolio site and blog I built.<sup>1</sup></p>
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><img src="https://morrisLuke.github.io//posts/not-promising-much-but-here-goes/images/hex_stickers.jpg" class="img-fluid figure-img" alt="The back of Luke's laptop, displaying sundry R hex stickers" width="1200"></p>
+</figure>
+</div>
+<p>Here is what I’m hoping to accomplish:</p>
+<p><strong>Watch one, do one, teach one:</strong> I’m cribbing this mentality from the talented nurses I spend my workday serving. I began learning R back in 2018 as part of my <a href="https://onlinedsa.merrimack.edu/business-analytics/">Business Analytics master’s program</a>. With a few years of experience under my belt, it’s time to pay forward what I learned from those a few steps ahead of me then.</p>
+<p><strong>Get some healthcare example cases out there:</strong> Maybe I’m just looking in the wrong places, but it’s hard to find direct parallels to things I’m doing around the hospital online. That likely has to do with <a href="https://www.hipaa.com/">HIPAA hurdles</a>. But I’m going to start looking for some available mock hospital data and putting together some work with those to give people interested in a healthcare data career a taste of what they can expect. So if you know of any mock hospital data OK for blogging examples with, <a href="mailto:hey@lukesmorris.com">let me know</a>. Otherwise, I’ll be digging into <a href="https://github.com/ropensci/charlatan"><code>charlatan</code></a> to try my hand at creating my own fake dataset.</p>
+<p><strong>Learn what other R folks are up to:</strong> Although I’ve changed industries, I’m still a journalist at heart. One thing I’d love to do is interview other R users about what they’re working on, either professionally or as a hobby. I foresee a rich vein of inspiration – for others as well as myself. Think of it as a podcast, but in writing.</p>
+<p>Being a full-time employee and full-time grad student will definitely challenge how often I can post, but I’ll look for opportunities where available.</p>
+<p>Let’s have some fun!</p>
 
 
 
 
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="https://morrisLuke.github.io//posts/welcome/thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
-
-
- ]]></description>
-  <category>news</category>
-  <guid>https://morrisLuke.github.io//posts/welcome/index.html</guid>
-  <pubDate>Sun, 14 Aug 2022 07:00:00 GMT</pubDate>
-  <media:content url="https://morrisLuke.github.io///posts/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
+<ol>
+<li id="fn1"><p><a href="https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html">Albert Rapp’s guide</a> was super helpful↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>R</category>
+  <category>Quarto</category>
+  <guid>https://morrisLuke.github.io//posts/not-promising-much-but-here-goes/post.html</guid>
+  <pubDate>Mon, 22 Aug 2022 07:00:00 GMT</pubDate>
+  <media:content url="https://morrisLuke.github.io///posts/not-promising-much-but-here-goes/images/hex_stickers.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

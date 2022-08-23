@@ -1,0 +1,30 @@
+---
+title: 'Not promising much, but here goes...'
+date: '2022-08-22'
+categories: ['R', 'Quarto']
+execute:
+  message: false
+  warning: false
+editor_options: 
+  chunk_output_type: console
+---
+
+Ask anybody who has worked with me, they'll tell you I'm the king of underpromising then overdelivering.
+
+I'm hoping that turns out to be the case with this shiny new Quarto portfolio site and blog I built.[^1]
+
+[^1]: [Albert Rapp's guide](https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html) was super helpful
+
+![](images/hex_stickers.jpg){fig-alt="The back of Luke's laptop, displaying sundry R hex stickers" fig-align="right" width="1200"}
+
+Here is what I'm hoping to accomplish:
+
+**Watch one, do one, teach one:** I'm cribbing this mentality from the talented nurses I spend my workday serving. I began learning R back in 2018 as part of my [Business Analytics master's program](https://onlinedsa.merrimack.edu/business-analytics/). With a few years of experience under my belt, it's time to pay forward what I learned from those a few steps ahead of me then.
+
+**Get some healthcare example cases out there:** Maybe I'm just looking in the wrong places, but it's hard to find direct parallels to things I'm doing around the hospital online. That likely has to do with [HIPAA hurdles](https://www.hipaa.com/). But I'm going to start looking for some available mock hospital data and putting together some work with those to give people interested in a healthcare data career a taste of what they can expect. So if you know of any mock hospital data OK for blogging examples with, [let me know](mailto:hey@lukesmorris.com). Otherwise, I'll be digging into [`charlatan`](https://github.com/ropensci/charlatan) to try my hand at creating my own fake dataset.
+
+**Learn what other R folks are up to:** Although I've changed industries, I'm still a journalist at heart. One thing I'd love to do is interview other R users about what they're working on, either professionally or as a hobby. I foresee a rich vein of inspiration -- for others as well as myself. Think of it as a podcast, but in writing.
+
+Being a full-time employee and full-time grad student will definitely challenge how often I can post, but I'll look for opportunities where available.
+
+Let's have some fun!

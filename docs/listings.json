@@ -6,15 +6,13 @@
   {
     "listing": "/archive.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/not-promising-much-but-here-goes/post.html"
     ]
   },
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/not-promising-much-but-here-goes/post.html"
     ]
   }
 ]
