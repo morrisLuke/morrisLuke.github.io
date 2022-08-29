@@ -10,7 +10,136 @@
 <atom:link href="https://morrisLuke.github.io//blog.xml" rel="self" type="application/rss+xml"/>
 <description>Healthcare Data Analytics | Data Science | R | Quarto</description>
 <generator>quarto-0.9.301</generator>
-<lastBuildDate>Mon, 22 Aug 2022 07:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 28 Aug 2022 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Flowchart fiend? Let Quarto’s mermaid integration cast its spell</title>
+  <link>https://morrisLuke.github.io//posts/flowchart-fiend-let-quartos-mermaid-integration-cast-its-spell/flowchart-fiend-let-quartos-mermaid-integration-cast-its-spell.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>For anybody who makes tons of flowcharts, <a href="https://mermaid-js.github.io/mermaid/">mermaid.js</a> may be the siren song that draws you to Quarto.</p>
+<p>The <a href="https://quarto.org/docs/guide/">Quarto’s documentation and functionality is extremely robust</a>, so there are bound to be pieces we’ve all missed. The built-in mermaid.js functionality is quickly growing into a can’t-miss feature for me and likely anybody who spends a lot of time creating flowcharts – hi other healthcare folx!</p>
+<figure class="cell figure">
+<div class="cell-output-display" data-code-fold="false">
+<pre class="mermaid">flowchart LR
+  A((Can I <br> have pizza?))
+  A --&gt; B{What time <br> of day is it?} 
+  B --&gt; C(Morning)
+  B --&gt; D(Evening)
+  B --&gt; E(Supper Time)
+  C --&gt; F{Is said pizza <br> on a bagel?}
+  D --&gt; F
+  E --&gt; F
+  F --&gt;|Yes| G[YOU CAN EAT <br> PIZZA <br> ANYTIME!]
+  F --&gt;|NO| H[NO PIZZA <br> FOR YOU!]
+</pre>
+</div>
+</figure>
+<p>There are <a href="https://mermaid-js.github.io/mermaid/#/flowchart">inputs for almost every tweak</a> you could think of making: shape, color, line type, subgroup, etc.</p>
+<p>And it’s not just flowcharts you can make with mermaid. They’ve got sequence diagrams, user journey diagrams, entity relationship diagrams, git graphs that look like Metro rail maps, and Gantt diagrams, aka swimlane diagrams in healthcare parlance.</p>
+<p>Unfortunately some of those formats are a hit-and-miss with properly rendering in Quarto at the moment (at least for me). We’re not going to talk about the two hours I just lost trying to get a swimlane chart to show at the proper width.</p>
+<p>Let’s take a look at what’s behind a couple samples I was able to get to work:</p>
+<figure class="cell figure">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"></span>
+<span id="cb1-2"><span class="in" style="color: #5E5E5E;">```{mermaid}</span></span>
+<span id="cb1-3"><span class="in" style="color: #5E5E5E;">classDiagram</span></span>
+<span id="cb1-4"><span class="in" style="color: #5E5E5E;">    Animal &lt;|-- Duck</span></span>
+<span id="cb1-5"><span class="in" style="color: #5E5E5E;">    Animal &lt;|-- Fish</span></span>
+<span id="cb1-6"><span class="in" style="color: #5E5E5E;">    Animal &lt;|-- Zebra</span></span>
+<span id="cb1-7"><span class="in" style="color: #5E5E5E;">    Animal : +int age</span></span>
+<span id="cb1-8"><span class="in" style="color: #5E5E5E;">    Animal : +String gender</span></span>
+<span id="cb1-9"><span class="in" style="color: #5E5E5E;">    Animal: +isMammal()</span></span>
+<span id="cb1-10"><span class="in" style="color: #5E5E5E;">    Animal: +mate()</span></span>
+<span id="cb1-11"><span class="in" style="color: #5E5E5E;">    class Duck{</span></span>
+<span id="cb1-12"><span class="in" style="color: #5E5E5E;">      +String beakColor</span></span>
+<span id="cb1-13"><span class="in" style="color: #5E5E5E;">      +swim()</span></span>
+<span id="cb1-14"><span class="in" style="color: #5E5E5E;">      +quack()</span></span>
+<span id="cb1-15"><span class="in" style="color: #5E5E5E;">    }</span></span>
+<span id="cb1-16"><span class="in" style="color: #5E5E5E;">    class Fish{</span></span>
+<span id="cb1-17"><span class="in" style="color: #5E5E5E;">      -int sizeInFeet</span></span>
+<span id="cb1-18"><span class="in" style="color: #5E5E5E;">      -canEat()</span></span>
+<span id="cb1-19"><span class="in" style="color: #5E5E5E;">    }</span></span>
+<span id="cb1-20"><span class="in" style="color: #5E5E5E;">    class Zebra{</span></span>
+<span id="cb1-21"><span class="in" style="color: #5E5E5E;">      +bool is_wild</span></span>
+<span id="cb1-22"><span class="in" style="color: #5E5E5E;">      +run()</span></span>
+<span id="cb1-23"><span class="in" style="color: #5E5E5E;">    }</span></span>
+<span id="cb1-24"><span class="in" style="color: #5E5E5E;">```</span></span></code></pre></div>
+<div class="cell-output-display" data-code-fold="false">
+<pre class="mermaid">%%| echo: fenced
+classDiagram
+    Animal &lt;|-- Duck
+    Animal &lt;|-- Fish
+    Animal &lt;|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+      +String beakColor
+      +swim()
+      +quack()
+    }
+    class Fish{
+      -int sizeInFeet
+      -canEat()
+    }
+    class Zebra{
+      +bool is_wild
+      +run()
+    }
+</pre>
+</div>
+</figure>
+<p>Example via <a href="https://mermaid.live/edit#pako:eNptkU1PwzAMhv9KlBOI9Q9UuyC2SRx22m2KhNzEdFbzAfnQBKP_nbSlYXT4ZD-OX72xL1w6hbzmUkMIG4LWgxGW5Xi0ZECz9VdVsU2S3S3dUTjd0iM2Hv7gmj2QjQxaXOJD9GRb1qJV6K-bw0jYg8np3f2iYSDiDEfbo73LBFgRbRC6J6edL41wJjMP5vI9gezmur_WGz5W9KrBe6BPfLY7xFiwBLuF-O_8uIJfQ41zmlF4OZNWBfpkF7Nz8BU36A2QyncZVQSPJzQoeJ1Tha-QdBRc2D4_TW8q72OrKDrP6-gTrjik6A4fVs719ObnuhPsvwES3pny">Mermaid Live</a></p>
+<p>I highly recommend using <a href="https://mermaid.live/edit#pako:eNptkU1PwzAMhv9KlBOI9Q9UuyC2SRx22m2KhNzEdFbzAfnQBKP_nbSlYXT4ZD-OX72xL1w6hbzmUkMIG4LWgxGW5Xi0ZECz9VdVsU2S3S3dUTjd0iM2Hv7gmj2QjQxaXOJD9GRb1qJV6K-bw0jYg8np3f2iYSDiDEfbo73LBFgRbRC6J6edL41wJjMP5vI9gezmur_WGz5W9KrBe6BPfLY7xFiwBLuF-O_8uIJfQ41zmlF4OZNWBfpkF7Nz8BU36A2QyncZVQSPJzQoeJ1Tha-QdBRc2D4_TW8q72OrKDrP6-gTrjik6A4fVs719ObnuhPsvwES3pny">Mermaid Live</a> for a WYSIWYG look at your changes on the fly. However, I don’t copy their specific Markdown output. Instead I just copy what I’ve been tweaking into a new Quarto mermaid block.</p>
+<figure class="cell figure">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"></span>
+<span id="cb2-2"><span class="in" style="color: #5E5E5E;">```{mermaid}</span></span>
+<span id="cb2-3"><span class="in" style="color: #5E5E5E;">flowchart TD</span></span>
+<span id="cb2-4"><span class="in" style="color: #5E5E5E;">A[Patient has &lt;br&gt; acute symptoms] --&gt; B{Triage in ER: &lt;br&gt; Evidence of MI?}</span></span>
+<span id="cb2-5"><span class="in" style="color: #5E5E5E;">B --&gt; |Yes| C[Early anti-ischemia &lt;br&gt; /infarction therapy]</span></span>
+<span id="cb2-6"><span class="in" style="color: #5E5E5E;">B --&gt; |No| D[Ambulatory care: &lt;br&gt; Initial evaluation]</span></span>
+<span id="cb2-7"><span class="in" style="color: #5E5E5E;">C --&gt; E[Inpatient evaluation &lt;br&gt; and therapy]</span></span>
+<span id="cb2-8"><span class="in" style="color: #5E5E5E;">C --&gt; F[Ambulatory care: &lt;br&gt; Follow-up care]</span></span>
+<span id="cb2-9"><span class="in" style="color: #5E5E5E;">F --&gt; G{Invasive &lt;br&gt; evaluation done?}</span></span>
+<span id="cb2-10"><span class="in" style="color: #5E5E5E;">G --&gt; |No| H[Ambulatory care: &lt;br&gt; Rehab and follow-up]</span></span>
+<span id="cb2-11"><span class="in" style="color: #5E5E5E;">G --&gt; |Yes| I{Procedure &lt;br&gt; initiated?}</span></span>
+<span id="cb2-12"><span class="in" style="color: #5E5E5E;">I --&gt; |No| H</span></span>
+<span id="cb2-13"><span class="in" style="color: #5E5E5E;">I --&gt; |Yes| J[Revascularization &lt;br&gt; procedure]</span></span>
+<span id="cb2-14"><span class="in" style="color: #5E5E5E;">J --&gt; H</span></span>
+<span id="cb2-15"><span class="in" style="color: #5E5E5E;">```</span></span></code></pre></div>
+<div class="cell-output-display" data-code-fold="false">
+<pre class="mermaid">%%| echo: fenced
+flowchart TD
+A[Patient has <br> acute symptoms] --&gt; B{Triage in ER: <br> Evidence of MI?}
+B --&gt; |Yes| C[Early anti-ischemia <br> /infarction therapy]
+B --&gt; |No| D[Ambulatory care: <br> Initial evaluation]
+C --&gt; E[Inpatient evaluation <br> and therapy]
+C --&gt; F[Ambulatory care: <br> Follow-up care]
+F --&gt; G{Invasive <br> evaluation done?}
+G --&gt; |No| H[Ambulatory care: <br> Rehab and follow-up]
+G --&gt; |Yes| I{Procedure <br> initiated?}
+I --&gt; |No| H
+I --&gt; |Yes| J[Revascularization <br> procedure]
+J --&gt; H
+</pre>
+</div>
+</figure>
+<p>Example adapted from the <a href="https://www.ihi.org/resources/Pages/Tools/Quality-Improvement-Essentials-Toolkit.aspx">Institute for Healthcare Improvement’s Quality Improvement Essentials Toolkit</a></p>
+<p>Even with all the hiccups of mermaid and Quarto not playing nice together, I think this can be a huge boon in my workday, and that of many others I imagine.</p>
+
+
+
+ ]]></description>
+  <category>R</category>
+  <category>Quarto</category>
+  <category>Mermaid</category>
+  <guid>https://morrisLuke.github.io//posts/flowchart-fiend-let-quartos-mermaid-integration-cast-its-spell/flowchart-fiend-let-quartos-mermaid-integration-cast-its-spell.html</guid>
+  <pubDate>Sun, 28 Aug 2022 07:00:00 GMT</pubDate>
+  <media:content url="https://morrisLuke.github.io///posts/flowchart-fiend-let-quartos-mermaid-integration-cast-its-spell/images/flowchart.png" medium="image" type="image/png" height="44" width="144"/>
+</item>
 <item>
   <title>Not promising much, but here goes…</title>
   <link>https://morrisLuke.github.io//posts/not-promising-much-but-here-goes/post.html</link>
