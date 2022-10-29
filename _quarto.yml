@@ -11,8 +11,8 @@ website:
     right:
       - text: blog
         href: blog.qmd
-      - icon: twitter
-        href: https://twitter.com/LukeMorrisverse
+      - icon: mastodon
+        href: https://fosstodon.org/@lukemorris
       - icon: linkedin
         href: https://www.linkedin.com/in/lukesmorris/
       - icon: github
