@@ -6,14 +6,15 @@
       version="2.0">
 <channel>
 <title>Luke Morris</title>
-<link>https://morrisLuke.github.io//blog.html</link>
-<atom:link href="https://morrisLuke.github.io//blog.xml" rel="self" type="application/rss+xml"/>
+<link>https://morrisLuke.github.io/blog.html</link>
+<atom:link href="https://morrisLuke.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Healthcare Data Analytics | Data Science | R | Quarto</description>
-<generator>quarto-0.9.301</generator>
+<generator>quarto-1.2.253</generator>
 <lastBuildDate>Sun, 28 Aug 2022 07:00:00 GMT</lastBuildDate>
 <item>
   <title>Flowchart fiend? Let Quarto’s mermaid integration cast its spell</title>
-  <link>https://morrisLuke.github.io//posts/flowchart-fiend-let-quartos-mermaid-integration-cast-its-spell/flowchart-fiend-let-quartos-mermaid-integration-cast-its-spell.html</link>
+  <dc:creator>Luke Morris</dc:creator>
+  <link>https://morrisLuke.github.io/posts/flowchart-fiend-let-quartos-mermaid-integration-cast-its-spell/flowchart-fiend-let-quartos-mermaid-integration-cast-its-spell.html</link>
   <description><![CDATA[ 
 
 
@@ -136,13 +137,14 @@ J --&gt; H
   <category>R</category>
   <category>Quarto</category>
   <category>Mermaid</category>
-  <guid>https://morrisLuke.github.io//posts/flowchart-fiend-let-quartos-mermaid-integration-cast-its-spell/flowchart-fiend-let-quartos-mermaid-integration-cast-its-spell.html</guid>
+  <guid>https://morrisLuke.github.io/posts/flowchart-fiend-let-quartos-mermaid-integration-cast-its-spell/flowchart-fiend-let-quartos-mermaid-integration-cast-its-spell.html</guid>
   <pubDate>Sun, 28 Aug 2022 07:00:00 GMT</pubDate>
-  <media:content url="https://morrisLuke.github.io///posts/flowchart-fiend-let-quartos-mermaid-integration-cast-its-spell/images/flowchart.png" medium="image" type="image/png" height="44" width="144"/>
+  <media:content url="https://morrisLuke.github.io/posts/flowchart-fiend-let-quartos-mermaid-integration-cast-its-spell/images/flowchart.png" medium="image" type="image/png" height="44" width="144"/>
 </item>
 <item>
   <title>Not promising much, but here goes…</title>
-  <link>https://morrisLuke.github.io//posts/not-promising-much-but-here-goes/post.html</link>
+  <dc:creator>Luke Morris</dc:creator>
+  <link>https://morrisLuke.github.io/posts/not-promising-much-but-here-goes/post.html</link>
   <description><![CDATA[ 
 
 
@@ -152,7 +154,7 @@ J --&gt; H
 <p>I’m hoping that turns out to be the case with this shiny new Quarto portfolio site and blog I built.<sup>1</sup></p>
 <div class="quarto-figure quarto-figure-right">
 <figure class="figure">
-<p><img src="https://morrisLuke.github.io//posts/not-promising-much-but-here-goes/images/hex_stickers.jpg" class="img-fluid figure-img" alt="The back of Luke's laptop, displaying sundry R hex stickers" width="1200"></p>
+<p><img src="https://morrisLuke.github.io/posts/not-promising-much-but-here-goes/images/hex_stickers.jpg" class="img-fluid figure-img" alt="The back of Luke's laptop, displaying sundry R hex stickers" width="1200"></p>
 </figure>
 </div>
 <p>Here is what I’m hoping to accomplish:</p>
@@ -173,9 +175,9 @@ J --&gt; H
 </section></div> ]]></description>
   <category>R</category>
   <category>Quarto</category>
-  <guid>https://morrisLuke.github.io//posts/not-promising-much-but-here-goes/post.html</guid>
+  <guid>https://morrisLuke.github.io/posts/not-promising-much-but-here-goes/post.html</guid>
   <pubDate>Mon, 22 Aug 2022 07:00:00 GMT</pubDate>
-  <media:content url="https://morrisLuke.github.io///posts/not-promising-much-but-here-goes/images/hex_stickers.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://morrisLuke.github.io/posts/not-promising-much-but-here-goes/images/hex_stickers.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
