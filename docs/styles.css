@@ -1,1 +1,35 @@
 /* css styles */
+
+a {
+    color: #333;
+    text-decoration: underline;
+    -webkit-text-decoration: underline;
+    -moz-text-decoration: underline;
+    -ms-text-decoration: underline;
+    -o-text-decoration: underline;
+}
+
+a:hover {
+    color: #010101;
+    background-color: #dbe8f1;
+    text-decoration: underline;
+    -webkit-text-decoration: underline;
+    -moz-text-decoration: underline;
+    -ms-text-decoration: underline;
+    -o-text-decoration: underline;
+}
+
+div.quarto-about-jolla .about-link {
+    color: #010101;
+    text-decoration: none;
+    border: solid 1px;
+}
+
+div#resume-links a {
+    color: #032462;
+    text-decoration: none;
+    -webkit-text-decoration: underline;
+    -moz-text-decoration: underline;
+    -ms-text-decoration: underline;
+    -o-text-decoration: underline;
+}

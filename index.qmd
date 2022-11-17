@@ -19,6 +19,7 @@ about:
 ::: {#hero-heading}
 I'm a small library of contradictions. I started off life in a one-stoplight town in a corner of Kansas and now call Los Angeles home. I spent a decade as a words guy, wrangling wild sentences as a journalist<a rel="me" href="https://fosstodon.org/@lukemorris">,</a> before transforming into a numbers guy, analyzing healthcare data.
 
+::: {#resume-links}
 ## My Work
 
 #### Publications
@@ -48,6 +49,7 @@ I'm a small library of contradictions. I started off life in a one-stoplight tow
 -   [Predictive Analytics with College Athletics Financials](https://github.com/morrisLuke/Predictive-Analytics-with-College-Athletics-Financials)
 
 -   [Examining Article Shareability from Text-Mined Data](https://github.com/morrisLuke/Examining-Article-Shareability)
+:::
 
 ## Education
 
