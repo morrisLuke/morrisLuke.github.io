@@ -1,6 +1,6 @@
 /*-- scss:defaults --*/
 
-@import url('ttps://fonts.googleapis.com/css?family=Oswald|Inconsolata|Source+Serif+Pro');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Inconsolata|Source+Serif+Pro');
 
 //
 // Color system
@@ -62,7 +62,7 @@ $font-family-sans-serif:      "Oswald", "Open Sans", -apple-system, BlinkMacSyst
 $font-family-serif: "Source Serif Pro", Times, serif;
 $font-family-monospace: "Inconsolata", "Courier New", monospace !default;
 
-$headings-font-family:        $font-family-serif;
+$headings-font-family:        $font-family-sans-serif;
 $headings-font-weight:        500 !default;
 
 // Tables
