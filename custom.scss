@@ -35,11 +35,11 @@ $darkmatcha:  #91b500 !default;
 
 // Body
 
-$body-bg:                   $matcha !default;
+$body-bg:                   $white !default;
 $body-color:                $navy !default;
 
-$primary:       $liteblue !default;
-$secondary:     $gray-800 !default;
+$primary:       $matcha !default;
+$secondary:     $navy !default;
 $success:       $darkmatcha !default;
 $info:          $liteblue !default;
 $warning:       $yellow !default;
@@ -63,7 +63,7 @@ $font-family-serif: "Source Serif Pro", Times, serif;
 $font-family-monospace: "Inconsolata", "Courier New", monospace !default;
 
 $headings-font-family:        $font-family-serif;
-$headings-font-weight:        600 !default;
+$headings-font-weight:        500 !default;
 
 // Tables
 
@@ -155,7 +155,7 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,
 
 .bg-primary {
   .dropdown-menu {
-    background-color: $primary;
+    background-color: $navy;
 
     .dropdown-item,
     .dropdown-item:focus {
@@ -165,7 +165,7 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,
     .dropdown-item.active,
     .dropdown-item:hover,
     .dropdown-item:focus {
-      background-color: shade-color($primary, 10%);
+      background-color: shade-color($navy, 10%);
       color: $white;
     }
   }

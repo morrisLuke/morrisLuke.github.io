@@ -28,8 +28,33 @@ div.quarto-about-jolla .about-link {
 div#resume-links a {
     color: #032462;
     text-decoration: none;
-    -webkit-text-decoration: underline;
-    -moz-text-decoration: underline;
-    -ms-text-decoration: underline;
-    -o-text-decoration: underline;
+    font-weight: 600;
+    -webkit-text-decoration: none;
+    -moz-text-decoration: none;
+    -ms-text-decoration: none;
+    -o-text-decoration: none
+}
+
+.menu-text {
+    color: #c5f5d8;
+}
+
+h1.title {
+    color: #032462;
+}
+
+.navbar-dark {
+    background-color: #032462;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #c5f5d8;
+}
+
+.navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon {
+  color: #c5f5d8;
+}
+
+.navbar-dark .navbar-brand {
+    color: #c5f5d8;
 }
