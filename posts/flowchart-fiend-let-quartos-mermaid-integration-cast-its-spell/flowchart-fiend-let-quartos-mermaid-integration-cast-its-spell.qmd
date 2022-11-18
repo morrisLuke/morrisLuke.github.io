@@ -14,6 +14,8 @@ For anybody who makes tons of flowcharts, [mermaid.js](https://mermaid-js.github
 
 The [Quarto's documentation and functionality is extremely robust](https://quarto.org/docs/guide/), so there are bound to be pieces we've all missed. The built-in mermaid.js functionality is quickly growing into a can't-miss feature for me and likely anybody who spends a lot of time creating flowcharts -- hi other healthcare folx!
 
+::: {.column-page}
+
 ```{mermaid}
 flowchart LR
   A((Can I <br> have pizza?))
@@ -27,6 +29,8 @@ flowchart LR
   F -->|Yes| G[YOU CAN EAT <br> PIZZA <br> ANYTIME!]
   F -->|NO| H[NO PIZZA <br> FOR YOU!]
 ```
+
+:::
 
 There are [inputs for almost every tweak](https://mermaid-js.github.io/mermaid/#/flowchart) you could think of making: shape, color, line type, subgroup, etc.
 

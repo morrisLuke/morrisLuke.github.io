@@ -22,6 +22,7 @@
 
 <p>For anybody who makes tons of flowcharts, <a href="https://mermaid-js.github.io/mermaid/">mermaid.js</a> may be the siren song that draws you to Quarto.</p>
 <p>The <a href="https://quarto.org/docs/guide/">Quarto’s documentation and functionality is extremely robust</a>, so there are bound to be pieces we’ve all missed. The built-in mermaid.js functionality is quickly growing into a can’t-miss feature for me and likely anybody who spends a lot of time creating flowcharts – hi other healthcare folx!</p>
+<div class="column-page">
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -42,6 +43,7 @@
 
 </div>
 <p></p>
+</div>
 </div>
 </div>
 </div>
