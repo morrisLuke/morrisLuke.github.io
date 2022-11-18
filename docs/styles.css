@@ -15,7 +15,7 @@ a {
 
 a:hover {
     color: #010101;
-    background-color: #dbe8f1;
+    background-color: #c5f5d8;
     text-decoration: underline;
     -webkit-text-decoration: underline;
     -moz-text-decoration: underline;
@@ -24,23 +24,33 @@ a:hover {
 }
 
 div.quarto-about-jolla .about-link {
-    color: #010101;
+    color: #032462;
     text-decoration: none;
     border: solid 1px;
 }
 
+div.quarto-about-jolla .about-link:hover{
+  color: #032462;
+  background-color: #c5f5d8;
+}
+
 div#resume-links a {
     color: #032462;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: 600;
-    -webkit-text-decoration: none;
-    -moz-text-decoration: none;
-    -ms-text-decoration: none;
-    -o-text-decoration: none
+    -webkit-text-decoration: underline;
+    -moz-text-decoration: underline;
+    -ms-text-decoration: underline;
+    -o-text-decoration: underline
 }
 
 .menu-text {
     color: #c5f5d8;
+}
+
+.menu-text:hover{
+  color: #404f46;
+  background-color: #c5f5d8;
 }
 
 h1.title {
@@ -61,4 +71,9 @@ h1.title {
 
 .navbar-dark .navbar-brand {
     color: #c5f5d8;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #404f46;
+  background-color: #c5f5d8;
 }
