@@ -281,9 +281,40 @@ cookieconsent.run({
 </div>
 <p>There are <a href="https://mermaid-js.github.io/mermaid/#/flowchart">inputs for almost every tweak</a> you could think of making: shape, color, line type, subgroup, etc.</p>
 <p>And it’s not just flowcharts you can make with mermaid. They’ve got sequence diagrams, user journey diagrams, entity relationship diagrams, git graphs that look like Metro rail maps, and Gantt diagrams, aka swimlane diagrams in healthcare parlance.</p>
-<p>Unfortunately some of those formats are a hit-and-miss with properly rendering in Quarto at the moment (at least for me). We’re not going to talk about the two hours I just lost trying to get a swimlane chart to show at the proper width.</p>
+<div class="column-screen">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<p>
+</p><pre class="mermaid mermaid-js" data-tooltip-selector="#mermaid-tooltip-2">%%{init: { 'logLevel': 'debug', 'theme': 'forest' } }%%
+gantt
+    title Project Timeline
+    dateFormat  YYYY-MM-DD
+    section Data Prep
+    Extract Data           :a1, 2023-01-01, 1w
+    Clean Data     :a2, 2023-01-01, 3w
+    Split Dataset   :a3, 2023-01-22, 1w
+    Score Training Dataset    :a4, 2023-01-29, 3w
+    section NLP
+    Construct Model      :b1, 2023-02-19, 2w
+    Refine Model         :b2, 2023-03-05, 2w
+    QA                   :b3, 2023-03-19, 3w
+    section Summarize
+    Write Report         :c1, 2023-04-09, 2w
+    Make Slides    :c2, 2023-04-16, 1w
+</pre>
+<div id="mermaid-tooltip-2" class="mermaidTooltip">
+
+</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
 <p>Let’s take a look at what’s behind a couple samples I was able to get to work:</p>
 <div class="cell">
+<details>
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{mermaid}</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>classDiagram</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    Animal &lt;|-- Duck</span>
@@ -307,10 +338,11 @@ cookieconsent.run({
 <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>      +run()</span>
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    }</span>
 <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output-display">
 <div>
 <p>
-</p><pre class="mermaid mermaid-js" data-tooltip-selector="#mermaid-tooltip-2">classDiagram
+</p><pre class="mermaid mermaid-js" data-tooltip-selector="#mermaid-tooltip-3">classDiagram
     Animal &lt;|-- Duck
     Animal &lt;|-- Fish
     Animal &lt;|-- Zebra
@@ -332,7 +364,7 @@ cookieconsent.run({
       +run()
     }
 </pre>
-<div id="mermaid-tooltip-2" class="mermaidTooltip">
+<div id="mermaid-tooltip-3" class="mermaidTooltip">
 
 </div>
 <p></p>
@@ -342,6 +374,8 @@ cookieconsent.run({
 <p>Example via <a href="https://mermaid.live/edit#pako:eNptkU1PwzAMhv9KlBOI9Q9UuyC2SRx22m2KhNzEdFbzAfnQBKP_nbSlYXT4ZD-OX72xL1w6hbzmUkMIG4LWgxGW5Xi0ZECz9VdVsU2S3S3dUTjd0iM2Hv7gmj2QjQxaXOJD9GRb1qJV6K-bw0jYg8np3f2iYSDiDEfbo73LBFgRbRC6J6edL41wJjMP5vI9gezmur_WGz5W9KrBe6BPfLY7xFiwBLuF-O_8uIJfQ41zmlF4OZNWBfpkF7Nz8BU36A2QyncZVQSPJzQoeJ1Tha-QdBRc2D4_TW8q72OrKDrP6-gTrjik6A4fVs719ObnuhPsvwES3pny">Mermaid Live</a></p>
 <p>I highly recommend using <a href="https://mermaid.live/edit#pako:eNptkU1PwzAMhv9KlBOI9Q9UuyC2SRx22m2KhNzEdFbzAfnQBKP_nbSlYXT4ZD-OX72xL1w6hbzmUkMIG4LWgxGW5Xi0ZECz9VdVsU2S3S3dUTjd0iM2Hv7gmj2QjQxaXOJD9GRb1qJV6K-bw0jYg8np3f2iYSDiDEfbo73LBFgRbRC6J6edL41wJjMP5vI9gezmur_WGz5W9KrBe6BPfLY7xFiwBLuF-O_8uIJfQ41zmlF4OZNWBfpkF7Nz8BU36A2QyncZVQSPJzQoeJ1Tha-QdBRc2D4_TW8q72OrKDrP6-gTrjik6A4fVs719ObnuhPsvwES3pny">Mermaid Live</a> for a WYSIWYG look at your changes on the fly. However, I don’t copy their specific Markdown output. Instead I just copy what I’ve been tweaking into a new Quarto mermaid block.</p>
 <div class="cell">
+<details>
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{mermaid}</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>flowchart TD</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>A[Patient has &lt;br&gt; acute symptoms] --&gt; B{Triage in ER: &lt;br&gt; Evidence of MI?}</span>
@@ -356,10 +390,11 @@ cookieconsent.run({
 <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="ot">I --&gt; </span><span class="ch">|</span><span class="ot">Yes</span><span class="ch">|</span><span class="ot"> J</span><span class="ch">[</span><span class="bn">Revascularization &lt;br&gt; procedure</span><span class="ch">]</span></span>
 <span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="ot">J --&gt; H</span></span>
 <span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="ot">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output-display">
 <div>
 <p>
-</p><pre class="mermaid mermaid-js" data-tooltip-selector="#mermaid-tooltip-3">flowchart TD
+</p><pre class="mermaid mermaid-js" data-tooltip-selector="#mermaid-tooltip-4">flowchart TD
 A[Patient has &lt;br&gt; acute symptoms] --&gt; B{Triage in ER: &lt;br&gt; Evidence of MI?}
 B --&gt; |Yes| C[Early anti-ischemia &lt;br&gt; /infarction therapy]
 B --&gt; |No| D[Ambulatory care: &lt;br&gt; Initial evaluation]
@@ -372,7 +407,7 @@ I --&gt; |No| H
 I --&gt; |Yes| J[Revascularization &lt;br&gt; procedure]
 J --&gt; H
 </pre>
-<div id="mermaid-tooltip-3" class="mermaidTooltip">
+<div id="mermaid-tooltip-4" class="mermaidTooltip">
 
 </div>
 <p></p>

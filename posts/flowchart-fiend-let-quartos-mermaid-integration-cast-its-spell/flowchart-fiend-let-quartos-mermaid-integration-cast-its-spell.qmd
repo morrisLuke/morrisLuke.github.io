@@ -2,6 +2,9 @@
 title: "Flowchart fiend? Let Quarto's mermaid integration cast its spell"
 date: '2022-08-28'
 categories: ['R', 'Quarto', 'Mermaid']
+format:
+  html:
+    code-fold: true
 execute: 
   message: false
   warning: false
@@ -36,7 +39,28 @@ There are [inputs for almost every tweak](https://mermaid-js.github.io/mermaid/#
 
 And it's not just flowcharts you can make with mermaid. They've got sequence diagrams, user journey diagrams, entity relationship diagrams, git graphs that look like Metro rail maps, and Gantt diagrams, aka swimlane diagrams in healthcare parlance.
 
-Unfortunately some of those formats are a hit-and-miss with properly rendering in Quarto at the moment (at least for me). We're not going to talk about the two hours I just lost trying to get a swimlane chart to show at the proper width.
+:::{.column-screen}
+
+```{mermaid}
+%%{init: { 'logLevel': 'debug', 'theme': 'forest' } }%%
+gantt
+    title Project Timeline
+    dateFormat  YYYY-MM-DD
+    section Data Prep
+    Extract Data           :a1, 2023-01-01, 1w
+    Clean Data     :a2, 2023-01-01, 3w
+    Split Dataset   :a3, 2023-01-22, 1w
+    Score Training Dataset    :a4, 2023-01-29, 3w
+    section NLP
+    Construct Model      :b1, 2023-02-19, 2w
+    Refine Model         :b2, 2023-03-05, 2w
+    QA                   :b3, 2023-03-19, 3w
+    section Summarize
+    Write Report         :c1, 2023-04-09, 2w
+    Make Slides    :c2, 2023-04-16, 1w
+```
+
+:::
 
 Let's take a look at what's behind a couple samples I was able to get to work:
 
