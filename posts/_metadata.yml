@@ -22,6 +22,8 @@ page-layout: article
 format:
   html:
     include-after-body: ../footer.html
+    email-obfuscation: javascript
+    code-link: true
 
 comments: 
   utterances: 

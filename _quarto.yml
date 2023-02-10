@@ -11,8 +11,6 @@ website:
     right:
       - text: blog
         href: blog.qmd
-      - icon: mastodon
-        href: https://fosstodon.org/@lukemorris
       - icon: linkedin
         href: https://www.linkedin.com/in/lukesmorris/
       - icon: github
@@ -25,6 +23,7 @@ format:
       - yeti
       - custom.scss
     css: styles.css
+    email-obfuscation: javascript
 
 editor: visual
 
