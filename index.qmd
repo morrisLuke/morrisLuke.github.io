@@ -17,7 +17,7 @@ about:
 ---
 
 ::: {#hero-heading}
-I'm a small library of contradictions. I started off life in a one-stoplight town in a corner of Kansas and now call Los Angeles home. I spent a decade as a words guy, wrangling wild sentences as a journalist before transforming into a numbers guy, analyzing healthcare data<a rel="me" href="https://fosstodon.org/@lukemorrisverse">.</a>
+I'm a small library of contradictions. I started off life in a one-stoplight town in a corner of Kansas and now call Los Angeles home. I spent a decade as a words guy, wrangling wild sentences as a journalist before transforming into a numbers guy, analyzing healthcare data.<a rel="me" href="https://fosstodon.org/@lukemorrisverse"> </a>
 
 ::: {#resume-links}
 ## My Work
