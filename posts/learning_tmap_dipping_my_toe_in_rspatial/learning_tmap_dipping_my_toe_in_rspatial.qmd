@@ -8,7 +8,7 @@ execute:
   warning: false
 editor_options: 
   chunk_output_type: console
-draft: true
+draft: false
 ---
 
 Actual blog write-up to come later. For now I just want to see how this actually looks in a webpage
@@ -83,4 +83,3 @@ tmap_mode("view")
 htmltools::h3("Healthcare Professional Shortage Areas in Los Angeles County")
 lacoInt
 ```
-
