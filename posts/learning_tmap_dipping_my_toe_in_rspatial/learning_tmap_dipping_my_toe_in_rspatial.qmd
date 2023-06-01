@@ -1,0 +1,86 @@
+---
+title: "Learning `tmap`: Dipping my toes in the R-spatial world"
+date: '2023-05-031'
+categories: ['R', 'Rspatial', 'tmap']
+description: ''
+execute: 
+  message: false
+  warning: false
+editor_options: 
+  chunk_output_type: console
+draft: true
+---
+
+Actual blog write-up to come later. For now I just want to see how this actually looks in a webpage
+
+```{r}
+library(sf)
+library(tidyverse)
+library(tmap)
+library(tmaptools)
+library(leaflet)
+
+laco <- read_sf("data/lacoG.geojson")
+
+labelItems <- sprintf(
+  "<strong>Area: </strong>%s<br/><strong>Shortage Score: </strong>%s<br/><strong>Population: </strong>%s<br/><strong>Pop. Under Poverty Line: </strong>%s<br/><strong>Provider-to-Civilian Ratio: </strong>%s<br/>",laco$MSSA_NAME, laco$PCSA_SCORE, laco$POP, laco$POV_RATE, laco$PC_PHYS_R_CIV
+) %>% lapply(htmltools::HTML)
+
+laco <- laco %>%
+  mutate(labelText = labelItems)
+
+lacoSta <- tm_shape(laco) +
+  tm_polygons(col = "PCSA_SCORE",
+              id = "MSSA_NAME",
+              title = "Shortage Score",
+              breaks = c(0, 5, 6, 7, 8, 9, 10, 11), 
+              labels = c("0 to 4", "5", "6", "7", "8", "9","10"),
+              palette = c("0 to 4" = "gray75",
+                          "5" = "#feeca5",
+                          "6" = "#fecf66",
+                          "7" = "#fea332",
+                          "8" = "#ec7114",
+                          "9" = "#c74a02",
+                          "10" = "#8e3003"),
+              alpha = 0.5) +
+  tm_credits("SOURCE: Health Resources\n& Services Administration", position = c("right", "bottom")) +
+  tm_layout(
+    main.title = "Healthcare Professional Shortage Areas in Los Angeles County",
+    frame = FALSE
+  )
+
+tmap_save(tm = lacoSta, 
+          filename = "images/lacoSta.png")
+```
+
+![](images/lacoSta.png)
+
+```{r}
+lacoInt <- tm_shape(laco) +
+  tm_basemap(server = "OpenStreetMap") +
+  tm_polygons(col = "PCSA_SCORE",
+              id = "MSSA_NAME",
+              title = "Shortage Score",
+              breaks = c(0, 5, 6, 7, 8, 9, 10, 11), 
+              labels = c("0 to 4", "5", "6", "7", "8", "9","10"),
+              palette = c("0 to 4" = "gray75",
+                          "5" = "#feeca5",
+                          "6" = "#fecf66",
+                          "7" = "#fea332",
+                          "8" = "#ec7114",
+                          "9" = "#c74a02",
+                          "10" = "#8e3003"),
+              alpha = 0.6,
+              popup.vars = c("Shortage Score" = "PCSA_SCORE", 
+                             "Population" = "POP", 
+                             "Poverty Rate" = "POV_RATE", 
+                             "Provider-to-Civilian Ratio" = "PC_PHYS_R_CIV")) +
+  tmap_options(
+    output.size = 1600
+  ) 
+
+tmap_mode("view")
+htmltools::h3("Healthcare Professional Shortage Areas in Los Angeles County")
+lacoInt
+```
+
