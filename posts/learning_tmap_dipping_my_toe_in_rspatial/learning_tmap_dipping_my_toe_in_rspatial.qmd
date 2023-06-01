@@ -3,6 +3,9 @@ title: "Learning `tmap`: Dipping my toes in the R-spatial world"
 date: '2023-05-31'
 categories: ['R', 'Rspatial', 'tmap']
 description: 'Great for static and interactive maps'
+format:
+  html:
+    code-fold: true
 execute: 
   message: false
   warning: false
