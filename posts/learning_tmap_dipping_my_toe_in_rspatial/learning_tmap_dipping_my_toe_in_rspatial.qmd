@@ -8,7 +8,7 @@ execute:
   warning: false
 editor_options: 
   chunk_output_type: console
-draft: false
+image: "lacoSta/flowchart.png"
 ---
 
 Actual blog write-up to come later. For now I just want to see how this actually looks in a webpage
