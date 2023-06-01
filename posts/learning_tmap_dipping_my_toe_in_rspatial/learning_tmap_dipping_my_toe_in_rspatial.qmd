@@ -1,8 +1,8 @@
 ---
 title: "Learning `tmap`: Dipping my toes in the R-spatial world"
-date: '2023-05-031'
+date: '2023-05-31'
 categories: ['R', 'Rspatial', 'tmap']
-description: ''
+description: 'Great for static and interactive maps'
 execute: 
   message: false
   warning: false
