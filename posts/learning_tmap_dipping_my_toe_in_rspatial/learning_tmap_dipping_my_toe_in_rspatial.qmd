@@ -99,7 +99,7 @@ htmltools::h3("Primary Care Shortage Areas in LA County")
 lacoInt
 ```
 
-If this whet your appetite to start toying with `tmap`, here are some helpful starting points.
+If this whet your appetite to start toying with `tmap`, here are some helpful starting points:
 
 [`tmap` Github](https://r-tmap.github.io/tmap/index.html)
 
