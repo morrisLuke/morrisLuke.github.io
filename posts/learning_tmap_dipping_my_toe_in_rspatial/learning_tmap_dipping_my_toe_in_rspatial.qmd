@@ -101,4 +101,12 @@ lacoInt
 
 If this whet your appetite to start toying with `tmap`, here are some helpful starting points.
 
-[`tmap` Github](https://r-tmap.github.io/tmap/index.html) [r-spatial.org](https://r-spatial.org/) [Geocomputation with R](https://r.geocompx.org/adv-map.html) [`tmap`: Elegant and Effective Informative Maps book (incomplete)](https://r-tmap.github.io/tmap-book/) Did I miss a good one? Comment and shout it out!
+[`tmap` Github](https://r-tmap.github.io/tmap/index.html)
+
+[r-spatial.org](https://r-spatial.org/)
+
+[Geocomputation with R](https://r.geocompx.org/adv-map.html)
+
+[`tmap`: Elegant and Effective Informative Maps book (incomplete)](https://r-tmap.github.io/tmap-book/)
+
+Did I miss a good one? Comment and shout it out!
