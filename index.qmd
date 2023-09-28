@@ -38,6 +38,8 @@ I'm a small library of contradictions. I started off life in a one-stoplight tow
 
 #### Talks
 
+-    [Fairly biased: Health equity through a journalism and data science lens](https://lukesmorris.com/health-equity-lecture/Health_Equity_Lecture.html)
+
 -   [Making the Case for Cedars' Community Resource Coordinators](https://morrisluke.github.io/Cedars_CRCs/Cedars_CRCs.html)
 
 -   [Bracketball: Let's Explore March Madness with ncaahoopR](https://youtu.be/_KnVDbc7Rew) ([slides](https://docs.google.com/presentation/d/1F9TTfK1_zRlzdvw4UCseaAXh-NQch4oy6zB3zXMamiY/edit?usp=sharing))
