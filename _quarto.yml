@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Luke Morris"
+  title: "Luke S. Morris"
   description: "Healthcare Data Science | R | Quarto"
   site-url: https://morrisLuke.github.io/
   repo-url: https://github.com/morrisLuke/morrisLuke.github.io
