@@ -10,14 +10,14 @@ about:
       href: https://www.linkedin.com/in/lukesmorris/
     - icon: mastodon
       text: Mastodon
-      href: https://fosstodon.org/@lukemorrisverse
+      href: https://fosstodon.org/@luke_morris
     - icon: github
       text: Github
       href: https://github.com/morrisLuke
 ---
 
 ::: {#hero-heading}
-I'm a small library of contradictions. I started off life in a one-stoplight town in a corner of Kansas and now call Los Angeles home. I spent a decade as a words guy, wrangling wild sentences as a journalist before transforming into a numbers guy, analyzing healthcare data<a rel="me" href="https://fosstodon.org/@lukemorrisverse">.</a>
+I'm a small library of contradictions. I started off life in a one-stoplight town in a corner of Kansas and now call Los Angeles home. I spent a decade as a words guy, wrangling wild sentences as a journalist before transforming into a numbers guy, analyzing healthcare data<a rel="me" href="https://fosstodon.org/@luke_morris">.</a>
 
 ::: {#resume-links}
 ## My Work
