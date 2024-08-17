@@ -24,6 +24,9 @@ format:
     theme:
       - darkly
     email-obfuscation: javascript
+drafts:
+ - posts/new_post/dummy_post.qmd
+draft-mode: gone
 
 editor: visual
 
