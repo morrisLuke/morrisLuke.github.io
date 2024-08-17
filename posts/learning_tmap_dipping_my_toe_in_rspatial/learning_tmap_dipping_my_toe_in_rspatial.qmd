@@ -14,7 +14,7 @@ editor_options:
 image: "images/lacoSta.png"
 ---
 
-I've been wanting to wade into the R spatial waters for some time, and now I've finally gotten around to it!
+I've been wanting to wade into the R spatial waters for some time, and now I've finally gotten around to it.
 
 In case you didn't know, [R has a whole community built around spatial data](https://r-spatial.org/) viz and data science.
 

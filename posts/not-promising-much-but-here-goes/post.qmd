@@ -11,7 +11,7 @@ editor_options:
 
 Ask anybody who has worked with me, they'll tell you I'm the king of underpromising then overdelivering.
 
-I'm hoping that turns out to be the case with this shiny new Quarto portfolio site and blog I built.[^1]
+I'm hoping that turns out to be the case with this shiny new Quarto portfolio site I built.[^1]
 
 [^1]: [Albert Rapp's guide](https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html) was super helpful
 
