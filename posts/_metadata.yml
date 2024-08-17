@@ -10,9 +10,6 @@ title-block-banner: true
 # Author name of all blog posts
 author: 'Luke Morris'
 
-twitter-card:
-    creator: "@LukeMorrisverse"
-
 # Table of content settings
 toc: true
 toc-depth: 3

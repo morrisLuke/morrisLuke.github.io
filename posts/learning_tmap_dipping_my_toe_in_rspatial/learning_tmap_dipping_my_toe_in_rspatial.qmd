@@ -1,8 +1,8 @@
 ---
-title: "Learning `tmap`: Dipping my toes in the R-spatial world"
+title: "Learning tmap: Dipping my toes in the R-spatial world"
 date: '2023-06-10'
 categories: ['R', 'Rspatial', 'tmap']
-description: "Maps for the perfectionist who can't just be happy enough with `ggplot`"
+description: "Maps for the perfectionist who can't just be happy enough with ggplot"
 format:
   html:
     code-fold: true

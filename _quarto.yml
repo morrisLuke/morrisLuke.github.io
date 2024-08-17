@@ -22,9 +22,7 @@ website:
 format:
   html:
     theme:
-      - yeti
-      - custom.scss
-    css: styles.css
+      - darkly
     email-obfuscation: javascript
 
 editor: visual
