@@ -16,7 +16,7 @@ website:
       - icon: github
         href: https://github.com/morrisLuke
       - icon: mastodon
-        href: https://fosstodon.org/@lukemorrisverse
+        href: https://fosstodon.org/@luke_morris
   google-analytics: "G-60SLVZ7V99"
   cookie-consent: true
 format:
