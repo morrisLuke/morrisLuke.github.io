@@ -8,6 +8,9 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/lukesmorris/
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/profile/luke-morris.bsky.social
     - icon: mastodon
       text: Mastodon
       href: https://rstats.me/@luke_morris
