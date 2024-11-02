@@ -11,13 +11,13 @@ website:
     right:
       - text: blog
         href: blog.qmd
-      - text: "{{< fa brands linkedin >}}"
+      - text: "<i class='fa-brands fa-linkedin'></i>"
         href: https://www.linkedin.com/in/lukesmorris/
-      - text: "{{< fa brands github >}}"
+      - text: "<i class='fa-brands fa-github'></i>"
         href: https://github.com/morrisLuke
-      - text: "{{< fa brands bluesky >}}"
+      - text: "<i class='fa-brands fa-bluesky'></i>"
         href: https://bsky.app/profile/luke-morris.bsky.social
-      - text: "{{< fa brands mastodon >}}"
+      - text: "<i class='fa-brands fa-mastodon'></i>"
         href: https://rstats.me/@luke_morris
   google-analytics: "G-60SLVZ7V99"
   cookie-consent: true
