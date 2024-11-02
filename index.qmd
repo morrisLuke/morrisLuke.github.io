@@ -5,13 +5,13 @@ about:
   id: hero-heading
   template: jolla
   links:
-    - text: "{{< iconify simple-icons:linkedin >}}"
+    - text: "{{< fa brands linkedin >}} LinkedIn"
       href: https://www.linkedin.com/in/lukesmorris/
-    - text: "{{< iconify simple-icons:github >}}"
+    - text: "{{< fa brands github >}} Github"
       href: https://github.com/morrisLuke
-    - text: "{{< iconify simple-icons:bluesky >}}"
+    - text: "{{< fa brands bluesky >}} Bluesky"
       href: https://bsky.app/profile/luke-morris.bsky.social
-    - text: "{{< iconify simple-icons:mastodon >}}"
+    - text: "{{< fa brands mastodon >}} Mastodon"
       href: https://rstats.me/@luke_morris
 ---
 
