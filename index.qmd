@@ -6,15 +6,12 @@ about:
   template: jolla
   links:
     - icon: linkedin
-      text: LinkedIn
       href: https://www.linkedin.com/in/lukesmorris/
     - icon: github
-      text: Github
       href: https://github.com/morrisLuke
     - text: "{{< iconify simple-icons bluesky >}}"
       href: https://bsky.app/profile/luke-morris.bsky.social
     - icon: mastodon
-      text: Mastodon
       href: https://rstats.me/@luke_morris
 ---
 
