@@ -15,7 +15,7 @@ website:
         href: https://www.linkedin.com/in/lukesmorris/
       - icon: github
         href: https://github.com/morrisLuke
-      - text: "{{< iconify simple-icons bluesky >}}"
+      - icon: patch-check-fill
         href: https://bsky.app/profile/luke-morris.bsky.social
       - icon: mastodon
         href: https://rstats.me/@luke_morris
