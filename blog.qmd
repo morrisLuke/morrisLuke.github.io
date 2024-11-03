@@ -12,6 +12,6 @@ listing:
 page-layout: full
 title-block-banner: true
 drafts:
-  - /posts/new_post
+  - /posts/new_post/dummy_post.qmd
 draft-mode: gone
 ---
