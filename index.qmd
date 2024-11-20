@@ -13,7 +13,7 @@ about:
       href: https://github.com/morrisLuke
     - icon: patch-check-fill
       text: Bluesky
-      href: https://bsky.app/profile/luke-morris.bsky.social
+      href: https://bsky.app/profile/lukesmorris.com
     - icon: mastodon
       text: Mastodon
       href: https://rstats.me/@luke_morris
