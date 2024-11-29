@@ -5,17 +5,15 @@ about:
   id: hero-heading
   template: jolla
   links:
-    - text: "{{< iconify fa6-brands linkedin >}} Linkedin"
-      aria-label: LinkedIn
+    - icon: LinkedIn
       href: https://www.linkedin.com/in/lukesmorris/
-    - text: "{{< iconify fa6-brands github >}} Github"
-      aria-label: Github
+    - icon: Github
       href: https://github.com/morrisLuke
-    - text: "{{< iconify fa6-brands bluesky >}} Bluesky"
-      aria-label: Bluesky
-      href: https://bsky.app/profile/lukesmorris.com
-    - text: "{{< iconify fa6-brands mastodon >}} Mastodon"
-      aria-label: Mastodon
+    - icon: patch-check-fill
+      text: Bluesky
+      href: https://bsky.app/profile/luke-morris.bsky.social
+    - icon: mastodon
+      text: Mastodon
       href: https://rstats.me/@luke_morris
 ---
 
