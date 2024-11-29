@@ -47,7 +47,7 @@ I'm a small library of contradictions. I started off life in a one-stoplight tow
 
 -   [Bracketball: Let's Explore March Madness with ncaahoopR](https://youtu.be/_KnVDbc7Rew) ([slides](https://docs.google.com/presentation/d/1F9TTfK1_zRlzdvw4UCseaAXh-NQch4oy6zB3zXMamiY/edit?usp=sharing))
 
-#### Hobby Projects 
+#### Hobby Projects
 
 -   [Kansas Basketball 2021-22 Season Dashboard](https://hzr5pf-luke0morris.shinyapps.io/kansas-basketball-2021-22/) ([repo](https://github.com/morrisLuke/kansas_basketball_dashboard))
 
