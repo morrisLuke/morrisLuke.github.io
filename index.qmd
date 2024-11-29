@@ -5,9 +5,11 @@ about:
   id: hero-heading
   template: jolla
   links:
-    - icon: LinkedIn
+    - icon: linkedin
+      text: LinkedIn
       href: https://www.linkedin.com/in/lukesmorris/
-    - icon: Github
+    - icon: github
+      text: Github
       href: https://github.com/morrisLuke
     - icon: patch-check-fill
       text: Bluesky
