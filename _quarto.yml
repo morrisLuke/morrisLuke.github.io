@@ -1,0 +1,42 @@
+project:
+  type: website
+
+website:
+  title: "Luke S. Morris"
+  description: "Healthcare Data Science | R | Quarto"
+  site-url: https://morrisLuke.github.io/
+  repo-url: https://github.com/morrisLuke/morrisLuke.github.io
+  open-graph:
+    locale: en_US
+  twitter-card: false
+  page-navigation: true
+  back-to-top-navigation: true
+  navbar:
+    search: false
+    right:
+      - text: About
+        href: index.qmd
+      - text: "{{< iconify fa6-brands:linkedin >}}"
+        href: 'https://www.linkedin.com/in/lukesmorris'
+      - text: "{{< iconify octicon:mark-github-16 >}}"
+        href: "https://www.github.com/morrisLuke"
+      - text: "{{< iconify fa6-brands:bluesky >}}"
+        href: "https://bsky.app/profile/lukesmorris.com"
+      - text: "{{< iconify fa6-brands:mastodon >}}"
+        href: "https://rstats.me/@luke_morris"
+        rel: me
+    google-analytics: "G-60SLVZ7V99"
+    cookie-consent: true
+
+format:
+  html:
+    lang: en
+    date-format: 'MMMM dddd, YYYY'
+    email-obfuscation: javascript
+    link-external-newwindow: true
+    fig-align: center
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+lightbox: auto
