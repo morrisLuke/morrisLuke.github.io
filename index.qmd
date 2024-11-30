@@ -5,22 +5,18 @@ about:
   id: hero-heading
   template: jolla
   links:
-    - icon: linkedin
-      text: LinkedIn
+    - text: "{{< iconify fa6-brands:linkedin >}} LinkedIn"
       href: https://www.linkedin.com/in/lukesmorris/
-    - icon: github
-      text: Github
+    - text: "{{< iconify octicon:mark-github-16 >}} Github"
       href: https://github.com/morrisLuke
-    - icon: patch-check-fill
-      text: Bluesky
+    - text: "{{< iconify fa6-brands:bluesky >}} Bluesky"
       href: https://bsky.app/profile/luke-morris.bsky.social
-    - icon: mastodon
-      text: Mastodon
+    - text: "{{< iconify fa6-brands:mastodon >}} Mastodon"
       href: https://rstats.me/@luke_morris
 ---
 
 :::: {#hero-heading}
-I'm a small library of contradictions. I started off life in a one-stoplight town in a corner of Kansas and now call Los Angeles home. I spent a decade as a words guy, wrangling wild sentences as a journalist before transforming into a numbers guy, analyzing healthcare data<a rel="me" href="https://rstats.me/@luke_morris">.</a>
+I'm a small library of contradictions. I started off life in a one-stoplight town in a corner of Kansas and now call Los Angeles home. I spent a decade as a words guy, wrangling wild sentences as a journalist before transforming into a numbers guy, analyzing healthcare data.
 
 ::: {#resume-links}
 ## My Work
