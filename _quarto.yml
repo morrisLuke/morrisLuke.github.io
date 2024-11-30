@@ -38,6 +38,6 @@ format:
     fig-align: center
 #    theme: yeti
     css: styles.css
-    toc: true
+#    toc: true
 
 lightbox: auto
