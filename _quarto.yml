@@ -36,7 +36,7 @@ format:
     email-obfuscation: javascript
     link-external-newwindow: true
     fig-align: center
-    theme: cosmo
+    theme: flatly
     css: styles.css
     toc: true
 
